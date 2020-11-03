@@ -1,5 +1,12 @@
 header{
-    display: block;
-    height: 400px;
-    background: ;
+    color: whitesmoke;
+    background: url("img/wew.jpg");
+    text-align: center;
+    font-weight: bold;
+}
+p1{
+    text-align: right;
+}
+.honey img{
+    margin-left: 20px;
 }
