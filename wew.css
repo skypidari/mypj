@@ -1,12 +1,40 @@
 header{
-    color: whitesmoke;
-    background: url("img/wew.jpg");
-    text-align: center;
-    font-weight: bold;
+
 }
-p1{
+.start{
+    background: url("img/wew.jpg") center / cover no-repeat;
+    position: relative;
+    height: 300px;
+
+}
+.start .pocentru{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+
+}
+p{
     text-align: right;
+    color: black;
 }
 .honey img{
     margin-left: 20px;
+    height: 600px;
+    width: 400px;
+}
+.honey{
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    grid-column: 1/5;
+    box-sizing: border-box;
+    border-radius: 0;
+    display: flex;
+    align-items: flex-start;
+    line-height: 21px;
+    padding: 40px;
+    background: mediumseagreen;
+    border: 0;
 }
