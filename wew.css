@@ -27,12 +27,41 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px;
     background-image: url("img/maxresdefault.jpg");
     height: 100%;
+    padding: 250px 50px;
 }
 
 .start h1{
     font-size: 30px;
     color: white;
+    align-items: center;
+    justify-content: start;
+    display: flex;
+    width: 20%;
+    text-align: center;
+}
+.start p{
+    font-size: 20px;
+    color: antiquewhite;
+}
+.anbut .ex{
+    background-color: whitesmoke;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    border: none;
+    color: antiquewhite;
+    cursor: pointer;
+    display: inline-block;
+    font-family: sans-serif;
+    font-size: 30px;
+    padding: 20px 35px;
+    text-align: center;
+    text-decoration: none;
+    animation: glowing 1300ms infinite;
+}
+@keyframes glowing {
+    0%{background-color: lightpink; box-shadow: 0 0 3px bisque;}
+    50% {background-color: fuchsia; box-shadow: 0 0 10px lightblue;}
+    100% {background-color: cornflowerblue; box-shadow: 0 0 3px blanchedalmond;}
 }
