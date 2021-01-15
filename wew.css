@@ -23,13 +23,13 @@ header{
     text-decoration: none;
     padding: 10px 10px;
 }
-section{
+section.gb{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 200px 50px;
     background-image: url("img/maxresdefault.jpg");
     height: 100%;
-    padding: 250px 50px;
 }
 
 .start h1{
@@ -64,4 +64,68 @@ section{
     0%{background-color: lightpink; box-shadow: 0 0 3px bisque;}
     50% {background-color: fuchsia; box-shadow: 0 0 10px lightblue;}
     100% {background-color: cornflowerblue; box-shadow: 0 0 3px blanchedalmond;}
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.second{
+    height: 100%;
+    width: 70%;
+
+}
+.mouse img{
+    height: 100%;
+    width: 70%;
+    margin-left: 50px;
+}
+.forest{
+
+}
+.forest img{
+    height: 100%;
+    width: 50%;
+
+}
+.sbor{
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.sbor h2{
+    font-size: 30px;
+    font-family: "Abyssinica SIL";
+}
+.sbor p{
+    margin-left: 25px;
+}
+.bot{
+
+}
+.cl{
+    border: 2px solid black;
+    height: 60px;
+    width: 60px;
+    border-radius: 10%;
+    background-color: brown;
+margin-left: 60px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    box-shadow: chocolate 0 2px 3px;
+    -webkit-box-shadow: coral 0 2px 3px;
+    -moz-box-shadow: coral 0 2px 3px;
+    background: brown;
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(brown),to(lightcoral));
+    background: -webkit-linear-gradient(brown, lightcoral);
+    background: -moz-linear-gradient(brown, lightcoral);
+    background: -ms-linear-gradient(brown, lightcoral);
+    background: -o-linear-gradient(brown, lightcoral);
+    background: linear-gradient(brown,lightcoral);
+}
+section.ten{
+   box-shadow: 0 19px 63px 2px rgba(0, 0, 0, 7.2);
+
 }
